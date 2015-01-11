@@ -9,10 +9,10 @@ use Rack::TryStatic
 FIVE_MINUTES=300
 
 run lambda { |env|
-  [ 
+  [
     404,
      {
-      'Content-Type' =>'text/html'.
+      'Content-Type' =>'text/html',
       'Cach-Control' => "public, max-age=#{FIVE_MINUTES}"
      },
     ['File not found']
