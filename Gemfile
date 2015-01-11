@@ -6,6 +6,9 @@ ruby  '2.2.0'
 gem "middleman", "~> 3.3.7"
 gem 'rack-contrib'
 gem "middleman-blog", "~> 3.5.3"
+gem 'bitters'
+gem 'bourbon'
+gem 'neat'
 group :development do
   gem 'middleman-livereload'
 end
