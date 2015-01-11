@@ -4,9 +4,9 @@ source 'http://rubygems.org'
 
 gem "middleman", "~> 3.3.7"
 gem 'rack-contrib'
+gem "middleman-blog", "~> 3.5.3"
 group :development do
-    gem "middleman-blog", "~> 3.5.3"
+  gem 'middleman-livereload'
 end
-gem 'middleman-livereload'
 # For feed.xml.builder
 gem "builder", "~> 3.0"
