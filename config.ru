@@ -1,7 +1,7 @@
 require 'rack/contrib/try_static
 
 use Rack::Deflater
-use Rack::TryStatic
+use Rack::TryStatic,
     root: 'tmp',
     urls: %w[/],
     ty:  %w[.html index.html /index.html]
