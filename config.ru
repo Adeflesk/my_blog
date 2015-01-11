@@ -1,4 +1,4 @@
-require 'rack/contrib/try_static
+require 'rack/contrib/try_static'
 
 use Rack::Deflater
 use Rack::TryStatic,
