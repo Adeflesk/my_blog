@@ -4,7 +4,7 @@ use Rack::Deflater
 use Rack::TryStatic,
     root: 'tmp',
     urls: %w[/],
-    ty:  %w[.html index.html /index.html]
+    try:  %w[.html index.html /index.html]
 
 FIVE_MINUTES=300
 
